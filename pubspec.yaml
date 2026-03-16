@@ -1,1 +1,32 @@
+name: flightgame
+description: "Professional Real Flight Simulator with Alchemist Rewards"
+publish_to: 'none'
+version: 1.0.0+1
 
+environment:
+  sdk: ">=3.10.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.11.0
+  flame_audio: ^2.1.0
+  google_mobile_ads: ^5.1.0
+  shared_preferences: ^2.2.2
+  sensors_plus: ^4.0.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/plane.png
+    - assets/images/runway.png
+    - assets/images/sky.png
+    - assets/images/icon.png
+    - assets/audio/engine.mp3
